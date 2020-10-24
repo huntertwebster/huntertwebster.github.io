@@ -37,7 +37,28 @@ p {
   	font-family:serif;  
   	color: 
 	       }
-border {
+.bordersA {
+  /* Singe rule. Adds a 1px black solid border */
+  border: 1px solid #000000;
+}
+
+/* Multi rule for better width control */
+.bordersB {
+  border-color: #000000;
+  border-style: solid;
+  /* TOP & BOTTOM: 5px, LEFT & RIGHT: 20px */
+  border-width: 5px 20px;
+  /* OR - TOP: 5px, RIGHT: 20px, BOTTOM: 10px, LEFT: 15px */
+  border-width: 5px 20px 10px 15px;
+}
+
+/* Specific rules for even further width, style & color control */
+.borderTopWarning {
+  /* Replace `top` with `right`, `bottom` or `left` */
+  border-top-color: #b52e2e;
+  border-top-style: dashed;
+  border-top-width: 3px;
+}
 	
 	       }
 .gallery-item {
