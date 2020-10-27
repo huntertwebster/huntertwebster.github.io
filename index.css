@@ -1,0 +1,31 @@
+body {	margin-left:15%; 
+	margin-right:15%; 
+	border:.5px;
+	border-color: transparent;
+	padding:10px 150px 10px 150px;}
+	       
+h1 {
+  font-size:48px;}
+	       
+h2 {
+  font-size:24px;}
+	       
+h3 {
+  font-size:20px; }
+	       
+h4 {
+  font-size:16px;
+  display: inline; }
+	       
+p {
+  font-size:16px;}
+		
+li {
+  list-style-type: square; }
+	      
+p.class{
+  float: right;
+	       }
+.dates {
+  float: right;
+	       }       
